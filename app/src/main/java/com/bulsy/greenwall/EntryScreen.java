@@ -75,7 +75,8 @@ public class EntryScreen extends Screen {
         p.setColor(Color.rgb(0,70,0));  // dark greenish
         p.setTextSize(act.TS_NORMAL);
         p.setTypeface(act.getGameFont());
-        String msg = "v"+BuildConfig.VERSION_NAME;
+        //String msg = "v"+BuildConfig.VERSION_NAME;
+        String msg = "v0.1";
         int xTextEnd = (int)(width*.99f);
         c.drawText(msg, xTextEnd-p.measureText(msg), height - 80, p);
         int w1 = scaledDst.width();
